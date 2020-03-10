@@ -16,3 +16,21 @@
 	border: 1px solid black;
 	border-radius: 2%;
 }
+
+.educ {
+	width: 75%;
+	position: relative;
+	margin-left: 150px;
+	margin-bottom: 150px;
+}
+
+.univ {
+	float:left;
+	width: 50%
+}
+
+.row:after {
+	content:"";
+	display: table;
+	clear:both;
+}

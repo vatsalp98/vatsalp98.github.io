@@ -35,13 +35,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Projects</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Education</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Education">Education</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#volunteer">Volunteering</a>
@@ -80,7 +80,7 @@
   </header>
 
   <!-- PRojects Section -->
-  <section class="page-section portfolio" id="portfolio">
+  <section class="page-section portfolio" id="projects">
     <div class="container">
 
       <!-- Portfolio Section Heading -->
@@ -305,6 +305,73 @@
 
   </section>
 
+  <section class="page-section Education" id="Education">
+    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Education</h2>
+
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+    </div>
+
+    <div class="educ">
+      <div class="univ">
+        <h4>Simon Fraser University</h4>
+        <p>From 2015 - Present</p>
+        <p>Bachelor's of Applied Sciences</p>
+        <img class="img-fluid" src="img/canada.svg" height="75px" width="125px" alt="CanFlag">
+      </div>
+
+      <div class="univ">
+        <h4>Ecole International Arc-En-Ciel (Togo)</h4>
+        <p>From 2012 to 2015</p>
+        <p>International Baccalaureat (IB)</p>
+        <img class="img-fluid" src="img/togo.png" height="65px" width="115px" alt="TogoFlag">
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="page-section portfolio" id="volunteer">
+    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Volunteering</h2>
+
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+    </div>
+
+    <!-- Volunteering slave house -->
+
+    <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#volunteerModal1">
+          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+            <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="img/slave.jpg" alt="SlaveHouse">
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#volunteerModal2">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/highschool.jpg" alt="Highschool">
+          </div>
+      </div>
+
+  </section>
+
 
   <!-- About Section -->
   <section class="page-section bg-primary text-white mb-0" id="about">
@@ -430,17 +497,17 @@
         <!-- Footer Social Icons -->
         <div class="col-lg-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/amit.uchiha.1">
             <i class="fab fa-fw fa-facebook-f"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
+          <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/vatsalparmar98">
             <i class="fab fa-fw fa-twitter"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/vatsalparmar98/">
             <i class="fab fa-fw fa-linkedin-in"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-dribbble"></i>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/vatsalp98">
+            <i class="fab fa-fw fa-github"></i>
           </a>
         </div>
 
@@ -705,6 +772,88 @@
       </div>
     </div>
   </div>
+
+  <!-- Volunteering Modals -->
+
+  <!-- Volunteering Modal 1 -->
+  <div class="portfolio-modal modal fade" id="volunteerModal1" tabindex="-1" role="dialog" aria-labelledby="volunteerModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Slave House</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/slave.jpg" alt="SlaveHouse">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Helped Restore the Historic slave house of Togo which was a central part of the slave cycle used by the europeans during the exploration of west African Colonies.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Volunteering Modal 2 -->
+  <div class="portfolio-modal modal fade" id="volunteerModal2" tabindex="-1" role="dialog" aria-labelledby="volunteerModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Public High School</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/highschool.jpg" alt="HighSchool">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Helped the High School students get through their daily Homeworks, Reviewed basic and important concepts learned in class for a better understanding. Helped the student set up a study plan they could follow to succeed in different courses they have enrolled in high school.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
