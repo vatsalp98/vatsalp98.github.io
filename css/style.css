@@ -1,0 +1,18 @@
+
+.tag {
+  color: orange;
+}
+
+.skillBar {
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+  columns: 250px 4;
+  margin-right: 100px;
+}
+
+.skBar {
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 2%;
+}
